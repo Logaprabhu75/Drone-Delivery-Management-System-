@@ -70,4 +70,6 @@
    -> Encapsulation:Data like orderId, paymentDetails, and droneStatus are declared as private.  
    
  
- #UML DIAGRAM
+ # UML DIAGRAM
+  drone project.drawio.png
+  
