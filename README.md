@@ -36,11 +36,10 @@
       
       Methods: login(), logout()  
       
-   •Customer (extends User)  
+  •Customer (extends User)  
    
-      Attributes: address, orderHistory  
-      
-      Methods: placeOrder(), trackOrder()  
+  Attributes: address, orderHistory  
+  Methods: placeOrder(), trackOrder()  
       
     •Drone  
     
