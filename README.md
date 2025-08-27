@@ -30,36 +30,32 @@
 # OOP CONCEPT
  •Main Classes  
  
-    •User (Base Class)  
+   •User (Base Class)  
     
       Attributes: userId, name, email, phone  
-      
       Methods: login(), logout()  
-      
+        
   •Customer (extends User)  
    
-  Attributes: address, orderHistory  
-  Methods: placeOrder(), trackOrder()  
+    Attributes: address, orderHistory  
+    Methods: placeOrder(), trackOrder()  
       
-    •Drone  
+  •Drone  
     
       Attributes: droneId, status, currentLocation  
-      
       Methods: assignOrder(), updateStatus()  
       
-    •Order  
+  •Order  
     
       Attributes: orderId, customerId, deliveryAddress, orderStatus, orderDate  
-      
       Methods: createOrder(), updateOrderStatus(), generateReceipt()  
       
-    •Delivery  
+  •Delivery  
     
       Attributes: deliveryId, orderId, assignedDroneId, estimatedTime  
-      
       Methods: scheduleDelivery(), trackDelivery()  
       
-    •Admin (extends User)  
+  •Admin (extends User)  
     
       Methods: registerDrone(), manageOrders(), generateReports()  
       
