@@ -1,4 +1,4 @@
-# JAVA PROJEC
+# JAVA PROJECT
 
 #DRONE DELIVERY MANAGEMENT SYSTEM
    The Drone Delivery Management System is a Java-based application integrated with a MySQL database to simplify and automate delivery operations using drones. It manages customers, drones, orders, and delivery         tracking to ensure timely, safe, and efficient deliveries.
