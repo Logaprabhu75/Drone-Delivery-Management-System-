@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Admin admin = new Admin(1, "Admin");
-        Customer customer = new Customer(101, "Vicky");
+        Admin admin = new Admin(5, "Admin");
+        Customer customer = new Customer(8, "Vicky");
         admin.login();
         customer.login();
         Drone drone1 = admin.registerDrone("OrdId075");
@@ -16,6 +16,7 @@ public class Main {
 }
 
     
+
 
 
 
