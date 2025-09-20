@@ -8,7 +8,8 @@ public class Admin extends User {
     }
     public void assignDrone(Drone drone, Order order) {
         drone.assignOrder(order);
-        order.updateStatus("Assigned");
+        order.updateStatus("Assigned Successfully ");
     }
 }
+
 
