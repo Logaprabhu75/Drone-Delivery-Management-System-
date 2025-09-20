@@ -5,7 +5,7 @@ public class Drone {
         this.droneId = droneId;
     }
     public void assignOrder(Order order) {
-        status = "Busy";
+        status = "Not Available";
         System.out.println("Drone " + droneId + " assigned to order " + order.getOrderId());
     }
     public void updateStatus(String newStatus) {
@@ -13,4 +13,5 @@ public class Drone {
         System.out.println("Drone " + droneId + " status updated to " + status);
     }
 }
+
 
