@@ -6,12 +6,13 @@ public class User {
         this.name = name;
     }
     public void login() {
-        System.out.println(name + "  you have logged in successfully.");
+        System.out.println(name + "you have logged in successfully");
     }
     public void logout() {
-        System.out.println(name + " you havelogged out successfully.");
+        System.out.println(name + "you havelogged out successfully");
     }
 } 
     
+
 
 
