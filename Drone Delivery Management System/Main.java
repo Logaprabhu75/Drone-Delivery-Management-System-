@@ -4,7 +4,7 @@ public class Main {
         Customer customer = new Customer(101, "Vicky");
         admin.login();
         customer.login();
-        Drone drone1 = admin.registerDrone("d075");
+        Drone drone1 = admin.registerDrone("OrdId075");
         Order order1 = customer.placeOrder("19,raja street chettipalayam-641201");
         admin.assignDrone(drone1, order1);
         customer.trackOrder(order1);
@@ -16,5 +16,6 @@ public class Main {
 }
 
     
+
 
 
