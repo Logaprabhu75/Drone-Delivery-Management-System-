@@ -1,4 +1,4 @@
-// class for customer
+
 import java.util.*;
 public class Customer extends User {
     private List<Order> orderHistory = new ArrayList<>();
@@ -17,6 +17,7 @@ public class Customer extends User {
         System.out.println("the status of the order id  " + order.getOrderId() + "is" + order.getStatus());
     }
 }
+
 
 
 
