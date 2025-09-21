@@ -7,12 +7,13 @@ public class Customer extends User {
     public Order placeorder(String address) {
         Order order = new Order(address);
         orderHistory.add(order);
-        System.out.println("Order placed: " + order.getOrderId());
+        System.out.println("Order placed and order id is " + order.getOrderId());
         return order;
     }
     public void trackorder(Order order) {
-        System.out.println("Order " + order.getOrderId() + " status: " + order.getStatus());
+        System.out.println("the status of the order id  " + order.getOrderId() + "is" + order.getStatus());
     }
 }
+
 
 
