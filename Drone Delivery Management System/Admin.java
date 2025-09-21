@@ -3,7 +3,7 @@ public class Admin extends User {
         super(userId, name);
     }
     public Drone registerdrone(String droneId) {
-        System.out.println("Drone registered: " + droneId);
+        System.out.println("Drone registered and id is" + droneId);
         return new Drone(droneId);
     }
     public void assigndrone(Drone drone, Order order) {
@@ -11,6 +11,7 @@ public class Admin extends User {
         order.updateStatus("drone is assigned successfully ");
     }
 }
+
 
 
 
