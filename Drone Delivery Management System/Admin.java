@@ -7,10 +7,11 @@ public class Admin extends User {
         return new Drone(droneId);
     }
     public void assigndrone(Drone drone, Order order) {
-        drone.assignOrder(order);
+        drone.assignorder(order);
         order.updateStatus("Assigned Successfully ");
     }
 }
+
 
 
 
